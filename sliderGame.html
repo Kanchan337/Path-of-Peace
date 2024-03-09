@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+ 
+<head>
+  <title> Path of Peace </title>
+  <style> 
+    .cell {
+      width: 60px;
+      height: 60px;
+      border: 1px solid black;
+      border-radius: 5px;
+      text-align: center;
+    }
+  </style>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+ </head>
+
+  <body bgcolor = "#a9b894">
+    <table border = "0" width = "100%" cellpadding = "0" 
+      cellspacing = "0" bgcolor = "#7b9479" >
+      <tr>
+        <td>
+          <table border = "0" width = "90%" cellpadding = "10"
+            cellspacing = "0" align = "center" >
+            <tr>
+              <td>
+                <img src="pinpng.com-meditation-silhouette-png-5492343.png" width="30" height="30">
+              </td>
+              <td>
+                <font face = "american typewriter" color = "#ffffff" size = "4">
+                  <strong> PATHWAY OF PEACE</strong>
+                </font>
+              </td>
+              <td width = "25%">&nbsp;</td>
+              <td>
+                <a href = "./home2.html">
+                  <font face = "american typewriter" color = "#ffffff" size = "4">
+                    Home
+                  </font>
+                </a>
+              </td>
+              <td>
+                <a href = "./login.html">
+                  <font face = "american typewriter" color = "#ffffff" size = "4">
+                    Check-In
+                  </font>
+                </a>
+              </td>
+              <td>
+                <a href = "./coping.html">
+                  <font face = "american typewriter" color = "#ffffff" size = "4">
+                    Health Gauge
+                  </font>
+                </a>
+              </td>
+              <td>
+                <a href = "./goals.html">
+                  <font face = "american typewriter" color = "#ffffff" size = "4">
+                    Goals
+                  </font>
+                </a>
+              </td>
+              <td>
+                <a href = "./resources.html">
+                  <font face = "american typewriter" color = "#ffffff" size = "4">
+                    Resources
+                  </font>
+                </a>
+              </td>
+              <td>
+                <a href = "./break.html">
+                  <font face = "american typewriter" color = "#ffffff" size = "4">
+                    Take a Break!
+                  </font>
+                </a>
+              </td>
+              <td>
+                <a href = "./contactPage.html">
+                  <font face = "american typewriter" color = "#ffffff" size = "4">
+                    To-Do
+                  </font>
+                </a>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </body>
+  <body background= "floral.png" style = "background-size: cover">
+  
+    <div class="instructions" id="instructions">
+<h2>How to Play:<br> Slider Game</h2>
+<p> Move around the numbers to get the numbers in ascending order from left to right. If you do, you win!</p>
+  <button class="instructionButton" onclick="closeInstructions()">OK</button>
+</div>
+<center>
+  <font face = "american typewriter" color = "#546953" size = "6">
+   
+  <div id = "puzzle_container">
+    <div class = "puzzle_block">1</div>
+    <div class = "puzzle_block">2</div>
+    <div class = "puzzle_block">3</div>
+    <div class = "puzzle_block">4</div>
+    <div class = "puzzle_block">5</div>
+    <div class = "puzzle_block">6</div>
+    <div class = "puzzle_block">7</div>
+    <div class = "puzzle_block">8</div>
+  </div>
+    <center>
+  <div id = "difficulty_container">
+    <div class = "difficulty_button active">EASY</div>
+    <div class = "difficulty_button active">MEDIUM</div>
+    <div class = "difficulty_button active">HARD</div>  
+  </div>
+      </center>
+  </font>
+  </center>
+
+  <script src = "sliderGame.js"></script>
+
+</body>
+</html>

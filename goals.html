@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Path of Peace</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+  </head>
+<body bgcolor = #9da691>
+  <table border = "0" width = "100%" cellpadding = "0" 
+    cellspacing = "0" bgcolor = "#7b9479">
+    <tr>
+      <td>
+        <table border = "0" width = "90%" cellpadding = "10"
+          cellspacing = "0" align = "center">
+          <tr>
+            <td>
+              <img src="pinpng.com-meditation-silhouette-png-5492343.png" width="30" height="30">
+            </td>
+            <td>
+              <font face = "american typewriter" color = "#ffffff" size = "4">
+                <strong> PATHWAY OF PEACE</strong>
+              </font>
+            </td>
+            <td width = "25%">&nbsp;</td>
+            <td>
+              <a href = "./home2.html">
+                <font face = "american typewriter" color = "#ffffff" size = "4">
+                  Home
+                </font>
+              </a>
+            </td>
+            <td>
+              <a href = "./login.html">
+                <font face = "american typewriter" color = "#ffffff" size = "4">
+                  Check-In
+                </font>
+              </a>
+            </td>
+            <td>
+              <a href = "./coping.html">
+                <font face = "american typewriter" color = "#ffffff" size = "4">
+                  Health Gauge
+                </font>
+              </a>
+            </td>
+            <td>
+              <a href = "./goals.html">
+                <font face = "american typewriter" color = "#ffffff" size = "4">
+                  Goals
+                </font>
+              </a>
+            </td>
+            <td>
+              <a href = "./resources.html">
+                <font face = "american typewriter" color = "#ffffff" size = "4">
+                  Resources
+                </font>
+              </a>
+            </td>
+            <td>
+              <a href = "./break.html">
+                <font face = "american typewriter" color = "#ffffff" size = "4">
+                  Take a Break!
+                </font>
+              </a>
+            </td>
+            <td>
+              <a href = "./contactPage.html">
+                <font face = "american typewriter" color = "#ffffff" size = "4">
+                  To-Do
+                </font>
+              </a>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+
+
+
+
+  <body>
+    <table border = "0" width = "100%" cellpadding = "0" cellspacing = "0" bgcolor = "#acbca4" height = "900px" background = "affirmationbg.png">
+       <tr height = "70px" valign = "top">
+         <td align = "center" valign = "bottom">
+              <font face = "american typewriter" color = "#ffffff" size = "6">
+                YOUR DAILY AFFIRMATION:
+              </font>
+        </td>
+       </tr>
+       <tr height = "100px" valign = "top">
+        <td valign = "top" >
+          <p id="affirmationDisplay"></p>
+          <script>
+            const affirmations = ["I’m exactly where I’m supposed to be.", "I can achieve whatever I set my mind to.", "I am becoming a better version of myself.","I am strong enough to walk my path.","My mistakes don’t define me. I’m so much more.","I love the person I am becoming.","I choose to be positive and kind today.","My happiness is in my hands.","I protect my mind from negative people and thoughts.","I define my own self-worth, not others.","I’m grateful for this day.","I’m worthy of success and happiness.","I make decisions that are right for me.","I have an open mind and I keep learning and growing.", "I love all the perfect and imperfect parts of me.","I’m confident and beautiful in my own way.","I am worthy of love, happiness and self-respect.","I value my health and I’m grateful for it.", "I am healthy and whole.","I am grateful for the people in my life.","I treat the people in my life with patience and respect.","My family loves and values me.","I encourage and support my friends in their endeavors.","I’m grateful for my journey and the people in my life.","I’m grateful for my job and my lovely home.","I have everything I need to create happiness.","I am grateful to see the positive side.","I can conquer anything that I set my mind to.","I build my own life and I’m in control of my decisions.","My past strengthens me.", "I learn from my past and live in the present.","I believe in my journey to success."];
+            
+            function myFunction() {
+              let toffee = affirmations[Math.floor(Math.random( ) * affirmations.length+0)]
+              document.getElementById("affirmationDisplay").style.fontSize = "50px"; 
+              document.getElementById("affirmationDisplay").style.color = "white";
+              document.getElementById("affirmationDisplay").style.textAlign = "center";
+              document.getElementById("affirmationDisplay").style.fontWeight = "900";
+              document.getElementById("affirmationDisplay").style.fontFamily = "american typewriter"; 
+              document.getElementById("affirmationDisplay").innerHTML = toffee;
+            }
+            myFunction() 
+          </script>
+        </td>
+      </tr>
+      <tr valign = "top" align = "center">
+        <td align = "center" valign = "top">
+          <style>
+            .button {
+              background-color: #7b9479;
+              border: none;
+              border-radius: 10px;
+              color: white;
+              padding: 15px 32px;
+              text-align: center;
+              text-decoration: none;
+              display: inline-block;
+              font-size: 20px;
+              margin: 0px;
+              cursor: pointer;
+              font-family: american typewriter;
+              transition-duration: 0.2s
+            }
+            .button:hover {
+              background-color: #687f6a;
+              color: white;
+            }
+          </style>
+          <button class="button" onClick="myFunction()">REFRESH FOR NEW AFFIRMATION</button>
+        </td>
+      </tr>
+      <tr height = "100px" valign = "center">
+         <td align = "center" valign = "center">
+              <font face = "american typewriter" color = "#ffffff" size = "6">
+                HOW HAVE I PRACTICED WELL BEING TODAY?
+              </font>
+        </td>
+      <tr>
+        <td align = "center">
+          <style>
+            input[type="checkbox"] {
+              align: left;
+              position: relative;
+              accent-color: #687f6a;
+              width: 30px;
+              height: 30px;
+            }
+            label{
+              color: white;
+              padding: 15px 32px;
+              text-align: center;
+              text-decoration: none;
+              display: inline-block;
+              font-size: 20px;
+              margin: auto;
+              cursor: pointer;
+              font-family: american typewriter;
+              transition-duration: 0.2s
+            }
+            form{
+              width: 50%;
+              margin-left : 17%
+            }
+          </style> <!--how have I practiced well-being today?-->
+          <form align = left>
+            <div>  
+              <input type="checkbox" value="state" /><label for = "checkbox"> Interacted with loved ones</label><br/> 
+              <input type="checkbox" value="state" /><label for = "checkbox"> Exercises at least 30 minutes</label><br/> 
+              <input type="checkbox" value="state" /><label for = "checkbox"> Made time to do something I enjoy</label><br/>
+              <input type="checkbox" value="state" /><label for = "checkbox"> Did a guided meditation when I was overwhelmed</label><br/>
+              <input type="checkbox" value="state" /><label for = "checkbox"> Ate healthy but nourishing meals</label><br/>
+              <input type="checkbox" value="state" /><label for = "checkbox"> Communicated efficiently and kindly</label><br/>
+              <input type="checkbox" value="state" /><label for = "checkbox"> Tried to limit screen time</label><br/>
+              <input type="checkbox" value="state" /><label for = "checkbox"> Journaled my feelings</label><br/>
+              <input type="checkbox" value="state" /><label for = "checkbox"> Was grateful for something</label><br/>
+              <input type="checkbox" value="state" /><label for = "checkbox"> Took time away from something that was stressing me</label><br/>
+              <input type="checkbox" value="state" /><label for = "checkbox"> Took a walk outside</label><br/>
+              <input type="checkbox" value="state" /><label for = "checkbox"> Drank adequate water</label><br/>
+              <input type="checkbox" value="state" /><label for = "checkbox"> Slept at least 8 hours</label><br/>
+              <input type="checkbox" value="state" /><label for = "checkbox"> Stopped procrastinating on something I had put off</label><br/>
+              <input type="checkbox" value="state" /><label for = "checkbox"> Volunteered or did a random act of kindness</label><br/>
+              <input type="checkbox" value="state" /><label for = "checkbox"> Found happiness in something small</label><br/>
+              <input type="checkbox" value="state" /><label for = "checkbox"> Did yoga</label><br/>
+              <input type="checkbox" value="state" /><label for = "checkbox"> Ate breakfast</label><br/>
+              <input type="checkbox" value="state" /><label for = "checkbox"> Did something creative</label><br/>
+              <input type="checkbox" value="state" /><label for = "checkbox"> Worked on my strengths and weaknesses</label><br/>
+              <input type="checkbox" value="state" /><label for = "checkbox"> Practiced forgiveness</label><br/>
+            </div>
+          </form>
+        </td>
+      </tr>
+    
+    </td>
+  </table>
+</body>
+</html>
+  

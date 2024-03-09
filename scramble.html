@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+ 
+<head>
+  <title>Path of Peace</title>
+  <link rel="stylesheet" href="style.css">
+  <script src = "words.js" defer></script>
+  <script src="scramble.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+ 
+  <body bgcolor = "#a9b894">
+    <table border = "0" width = "100%" cellpadding = "0" 
+      cellspacing = "0" bgcolor = "#7b9479" >
+      <tr>
+        <td>
+          <table border = "0" width = "90%" cellpadding = "10"
+            cellspacing = "0" align = "center" >
+            <tr>
+              <td>
+                <img src="pinpng.com-meditation-silhouette-png-5492343.png" width="30" height="30">
+              </td>
+              <td>
+                <font face = "american typewriter" color = "#ffffff" size = "4">
+                  <strong> PATHWAY OF PEACE</strong>
+                </font>
+              </td>
+              <td width = "25%">&nbsp;</td>
+              <td>
+                <a href = "./home2.html">
+                  <font face = "american typewriter" color = "#ffffff" size = "4">
+                    Home
+                  </font>
+                </a>
+              </td>
+              <td>
+                <a href = "./login.html">
+                  <font face = "american typewriter" color = "#ffffff" size = "4">
+                    Check-In
+                  </font>
+                </a>
+              </td>
+              <td>
+                <a href = "./coping.html">
+                  <font face = "american typewriter" color = "#ffffff" size = "4">
+                    Health Gauge
+                  </font>
+                </a>
+              </td>
+              <td>
+                <a href = "./goals.html">
+                  <font face = "american typewriter" color = "#ffffff" size = "4">
+                    Goals
+                  </font>
+                </a>
+              </td>
+              <td>
+                <a href = "./resources.html">
+                  <font face = "american typewriter" color = "#ffffff" size = "4">
+                    Resources
+                  </font>
+                </a>
+              </td>
+              <td>
+                <a href = "./break.html">
+                  <font face = "american typewriter" color = "#ffffff" size = "4">
+                    Take a Break!
+                  </font>
+                </a>
+              </td>
+              <td>
+                <a href = "./contactPage.html">
+                  <font face = "american typewriter" color = "#ffffff" size = "4">
+                    To-Do
+                  </font>
+                </a>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </body>
+<body background= "tapestry.png" style = "background-size: cover">
+  
+  <div class="instructions" id="instructions">
+<h2>How to Play:<br> Word Scramble</h2>
+<p>Use the hint in order to unscramble the given word  within the time limit!</p>
+  <button class="instructionButton" onclick="closeInstructions()">OK</button>
+</div>
+  <center>
+  <div class="container">
+        <h2 id="title" style="">Word Scramble</h2>
+        <div class="content">
+            <p class="word"></p>
+            <div class="details">
+                <p class="hint">Hint: <span></span></p>
+                <p class="time">Time Left: <span><b>30</b>s</span></p>
+            </div>
+            <input type="text" placeholder="Enter a valid word">
+          <br><br>
+            <div class="buttons">
+                <button class="refresh-word">Refresh Word</button>
+                <button class="check-word">Check Word</button>
+              <br><br>
+            </div>
+        </div>
+  </div>
+  </center>
+</body>
+</html>
